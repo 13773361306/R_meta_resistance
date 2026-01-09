@@ -1,0 +1,18 @@
+# requirements.R
+packages <- c(
+  "meta",      # Meta-analysis
+  "metafor",   # Meta-regression  
+  "dplyr",     # Data manipulation
+  "readxl",    # Read Excel files
+  "openxlsx",  # Write Excel files
+  "ggplot2",   # Plotting
+  "forestplot" # Forest plots
+)
+
+install_if_missing <- function(pkg) {
+  if (!require(pkg, character.only = TRUE)) {
+    install.packages(pkg)
+  }
+}
+
+lapply(packages, install_if_missing)
