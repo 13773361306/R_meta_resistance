@@ -46,7 +46,7 @@ Desktop/meta/
 ## Usage
 
 ### 1. Prepare Input Data
-- Place your Excel file at: `D:/Desktop/meta/antibiotic_resistance_raw_data/E.coli.xlsx`  
+- Place your Excel file at: `D:/Desktop/meta/E.coli.xlsx`  
 - Organize data into separate sheets (one per antibiotic or subgroup analysis)  
 - Ensure each sheet has the required columns: `study`, `Events`, `Total`  
 
